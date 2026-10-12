@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garden of Days</title>
+<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<div id="viewport">
+  <div id="stage">
+    <div id="layer-backdrop" class="layer"></div>
+    <div id="layer-regions" class="layer"></div>
+    <div id="layer-animals" class="layer"></div>
+    <div id="layer-front" class="layer"></div>
+    <canvas id="layer-fx"></canvas>
+    <div id="layer-ui" class="layer">
+      <header id="header"></header>
+      <section id="analytics" aria-label="This week"></section>
+      <div id="tooltip" role="tooltip" aria-hidden="true"></div>
+    </div>
+  </div>
+</div>
+
+<script src="js/core/garden.js"></script>
+<script src="js/core/wind.js"></script>
+<script src="js/core/sound.js"></script>
+<script src="js/core/fx.js"></script>
+<script src="js/scene/backdrop.js"></script>
+<script src="js/scene/grass.js"></script>
+<script src="js/regions/interview.js"></script>
+<script src="js/regions/arabic.js"></script>
+<script src="js/regions/chinese.js"></script>
+<script src="js/regions/weights.js"></script>
+<script src="js/regions/cardio.js"></script>
+<script src="js/scene/animals.js"></script>
+<script src="js/core/notes.js"></script>
+<script src="js/core/ui.js"></script>
+<script src="js/core/boot.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.DS_Store
+
+# build output (the compiled app, icon scratch, contact sheets)
+build/
+
+# raw full-size renders, too large for the repo
+assets-src/
+
+# private working notes and style reference
+CONTRACT.md
+reference.webp
